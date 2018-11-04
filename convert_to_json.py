@@ -11,7 +11,9 @@ def professor_to_json(professor):
 
 def list_of_profs_to_json(professors):
     professor_dictionary = {}
+    index = 1
     for professor in professors:
-        professor_dictionary[professor.name] = professor.to_dictionary()
+        professor_dictionary[index] = professor.to_dictionary()
+        index +=1
     with open("recommended_professors.json", "w") as write_file:
         json.dump(professor_dictionary, write_file)
