@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import logo from './logo.svg';
+import logo from './logomeet.svg';
 import './App.css';
 
 class App extends Component {
@@ -10,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Welcome to <code> Meet Your Professor </code>
+            <br></br> Welcome to Meet My Professor
           </p>
           <button className = "button" id="login"> <code> Login </code> </button>
         </header>
@@ -20,7 +20,3 @@ class App extends Component {
 }
 
 export default App;
-
-
-{/*<a className="App-link" href="https://meetyourprofessor.berkeley.edu" target="_blank" rel="noopener noreferrer">
-      Learn React </a> */}
