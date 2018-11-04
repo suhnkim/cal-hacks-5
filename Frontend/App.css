@@ -7,6 +7,13 @@
   height: 40vmin;
 }
 
+.App-logo-subpages {
+  position:absolute;
+  top: 20px;
+  animation: App-logo-spin infinite 2s linear;
+  height: 20vmin;
+}
+
 .App-header {
   background-color: white; /*#282c34*/
   min-height: 100vh;
@@ -43,3 +50,39 @@
   color: white;
 }
 
+.button-subpages {
+    background-color: transparent; /* Green */
+    border: 3px #282c34;
+    color: #282c34;
+    text-align: center;
+    font-family: "Ubuntu" serif;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+    height: 20px;
+    width: 60px;
+    transition: all 0.8s;
+    position:absolute;
+    top: 110px;
+
+}
+
+.button-subpages:hover {
+  background-color: #262262;
+  color: white;
+}
+
+.pStyle {
+  font-size: 19px;
+  position: absolute;
+  top: 120px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
