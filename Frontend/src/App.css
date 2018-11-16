@@ -16,11 +16,6 @@
   height: 20vmin;
 }
 
-.Filter-logo {
-  animation: App-logo-spin infinite 2s linear;
-  height: 20vmin;
-}
-
 .App-header {
   background-color: white; /*#282c34*/
   min-height: 100vh;
@@ -37,57 +32,53 @@
   color: #61dafb;
 }
 
-.button-Dropdown {
-  background-color: transparent; /* Green */
-  border: 3px #282c34;
-  color: #282c34;
-  text-align: center;
-  font-family: "Ubuntu" serif;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 8px;
-  height: 25px;
-  width: 80px;
-  transition: all 0.8s;
-}
+.button {
+    background-color: transparent; /* Green */
+    border: 3px #282c34;
+    color: #282c34;
+    text-align: center;
+    font-family: "Ubuntu" serif;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 25px;
+    width: 80px;
+    transition: all 0.8s;
 
-.ButtonGroup {
-  background-color: transparent; /* Green */
-  border: 3px #282c34;
-  color: #282c34;
-  text-align: center;
-  font-family: "Ubuntu" serif;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 8px;
-  height: 25px;
-  width: 80px;
-  transition: all 0.8s;
 }
 
 .button:hover {
-  background-color: #282c34;
+  background-color: #262262;
   color: white;
 }
 
-/*.buttons {
-  background-color: transparent;
-  border: 3px #282c34;
-  width: 80px;
-  height: 25px;
-  padding: 8px;
-  font-size: 16px;
-  font-family: "Ubuntu" serif;
-  text-align: center;
-  display: inline-block;
-  color: #282c34;
-  border-radius: 8px;
-  transition: all 0.8s;
-}*/
+.button-subpages {
+    background-color: transparent; /* Green */
+    border: 3px #282c34;
+    color: #282c34;
+    text-align: center;
+    font-family: "Ubuntu" serif;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+    height: 20px;
+    width: 60px;
+    transition: all 0.8s;
+    position:absolute;
+    top: 110px;
 
-/*.App-link {
-  color: #282c34;
-}*/
+}
+
+.button-subpages:hover {
+  background-color: #262262;
+  color: white;
+}
+
+.pStyle {
+  font-size: 19px;
+  position: absolute;
+  top: 120px;
+}
 
 @keyframes App-logo-spin {
   from {
