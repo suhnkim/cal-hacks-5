@@ -15,6 +15,6 @@ def generate_list_of_professors():
             email = professor_dictionary["Email"]
             website = professor_dictionary["Website"]
             calendar = professor_dictionary["Calendar"]
-            list_of_professors.append(Professor(calendar, name, department, classes_teaching
+            list_of_professors.append(Professor(calendar, name, department, classes_teaching,
                                     research_topics, interest, bio, email, website))
         return list_of_professors

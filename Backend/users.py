@@ -5,11 +5,10 @@ class User:
         self.calendar = calendar
 
 class Student(User):
-    def __init__(self, calendar, name, major, year, classes_taking, interests, filters):
+    def __init__(self, calendar, name, classes, interests, filters):
         self.name = name
-        self.major = major
-        self.year = year
         self.classes = classes
+        self.interests = interests
         self.filters = filters
         User.__init__(self, calendar)
 

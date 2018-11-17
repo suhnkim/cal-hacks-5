@@ -10,3 +10,22 @@ def run():
     DEPARTMENTS = button_dictionary["Departments"]
     CLASSES = button_dictionary["Classes"]
     RESEARCH_TOPICS = button_dictionary["Research Topics"]
+
+def create_student(student_data, button_data):
+    for key in input_data:
+        if key == "Calendar":
+            calendar = input_data[key]
+        elif key == "Name":
+            name = input_data[key]
+        elif key == "Departments":
+            departments = input_data[key]
+        elif key == "Classes":
+            classes = input_data[key]
+        elif key == "Interests":
+            interests = input_data[key]
+        elif key == "Filters":
+            filter_types = input_data[key]
+    filters = []
+    for type in filter_types:
+        filters.append(Filter(type))
+    return Student(calendar, name, departments, classes, interests, filters)

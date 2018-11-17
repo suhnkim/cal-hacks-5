@@ -6,13 +6,7 @@ from professor_data import *
 
 def main():
     #create the Student instance
-    calendar = student_dictionary["Calendar"]
-    name = student_dictionary["Name"]
-    major = student_dictionary["Major"]
-    year = student_dictionary["Year"]
-    classes = student_dictionary["Classes"]
-    filters = [Filter(element) for element in button_dictionary]
-    student = Student(calendar, name, major, year, classes, filters)
+    student = create_student(student_dictionary)
 
     #create list of professors
     list_of_professors = generate_list_of_professors()
