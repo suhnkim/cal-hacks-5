@@ -15,7 +15,7 @@ class Home extends Component {
           <p>
             <br></br> Welcome to Meet My Professor
           </p>
-          <button className = "button" id="login"> <code> Log In </code> </button>
+          <button className = "button" id="login"> <code> Login </code> </button>
 
         </header>
       </div>
